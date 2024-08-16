@@ -1,10 +1,12 @@
 package com.example.demo.dto;
 
 import com.example.demo.entity.ArticleEntity;
-import lombok.Data;
+import lombok.*;
 
-
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class ArticleDTO {
 
     private String title;
